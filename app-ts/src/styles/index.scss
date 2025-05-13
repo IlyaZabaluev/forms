@@ -1,0 +1,13 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+body {
+  font-family: Arial, sans-serif;
+  background: $dark;
+}
+
+.container {
+  width: $container-width;
+  margin: 0 auto;
+  @include flex-center;
+}
