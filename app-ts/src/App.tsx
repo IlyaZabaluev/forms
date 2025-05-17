@@ -1,7 +1,10 @@
+import { Signin, Signup } from "./components";
+
 export function App() {
   return (
     <div className="container">
-      <h1>Hello</h1>
+      <Signin />
+      <Signup />
     </div>
   );
 }
