@@ -1,0 +1,27 @@
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
+
+.form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.error {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: $error-color;
+  font-size: 0.875rem;
+}
+
+.button:disabled {
+  background: $disabled-color;
+  cursor: not-allowed;
+}
