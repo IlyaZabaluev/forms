@@ -1,8 +1,8 @@
 import { type FormEvent, useState, useRef } from "react";
 import { validateFieldSignin } from "../utils/validateFieldSignin";
-import styles from "./signin.module.scss";
-import { Input } from "../../custom";
+import { Input } from "../../Input";
 import { IconLock } from "@tabler/icons-react";
+import styles from "./signin.module.scss";
 
 type SigninProps = {
   onSubmit: (data: { email: string; password: string }) => void;

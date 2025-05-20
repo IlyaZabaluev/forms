@@ -6,7 +6,7 @@ import {
   type FormField,
   type SignupData,
 } from "../types/form";
-import { Input } from "../../custom";
+import { Input } from "../../Input";
 import { IconAt, IconLock } from "@tabler/icons-react";
 import styles from "./signup.module.scss";
 
