@@ -1,3 +1,3 @@
-export * from "./Signin/signin/signin.tsx";
-export * from "./Signup/signup/signup.tsx";
-export * from "./Input/input/input.tsx";
+export * from "./Signin/Signin/signin.tsx";
+export * from "./Signup/Signup/signup.tsx";
+export * from "./Input/Input/input.tsx";
